@@ -6,17 +6,17 @@ Este directorio es el **paso 2** del reto técnico para el puesto de Full Stack 
 
 ## Requerimientos :clipboard:
 
-:heavy_check_mark: Usar Node Js, Prisma (ORM), Nest Js (Framework). 
-:heavy_check_mark: EndPoint de Inicio de Sesión (JWT) 
-:heavy_check_mark: EndPoints para Crear, Obtener, Editar y Eliminar un Producto. 
-:heavy_check_mark: EndPoints para Crear, Obtener, Editar y Eliminar un Categoría 
-:heavy_check_mark: EndPoint de listar Productos.
-:heavy_check_mark: Usar buenas prácticas a nivel del proyecto, código, nomenclatura, etc.
-:heavy_check_mark: Agregar validaciones a nivel de campos como limites caracteres y tipo de datos.
-:x: Los endpoints de productos y categoría solo se podrán consumir con un token valido. 
-:heavy_check_mark: El endpoint de crear producto no debe de permitir registro duplicados por nombres. 
-:x: El endpoint de listar productos debe contemplar paginación. 
-:x: Implementar el manejo control de errores
+- :heavy_check_mark: Usar Node Js, Prisma (ORM), Nest Js (Framework). 
+- :heavy_check_mark: EndPoint de Inicio de Sesión (JWT) 
+- :heavy_check_mark: EndPoints para Crear, Obtener, Editar y Eliminar un Producto. 
+- :heavy_check_mark: EndPoints para Crear, Obtener, Editar y Eliminar un Categoría 
+- :heavy_check_mark: EndPoint de listar Productos.
+- :heavy_check_mark: Usar buenas prácticas a nivel del proyecto, código, nomenclatura, etc.
+- :heavy_check_mark: Agregar validaciones a nivel de campos como limites caracteres y tipo de datos.
+- :x: Los endpoints de productos y categoría solo se podrán consumir con un token valido. 
+- :heavy_check_mark: El endpoint de crear producto no debe de permitir registro duplicados por nombres. 
+- :x: El endpoint de listar productos debe contemplar paginación. 
+- :x: Implementar el manejo control de errores
 
 ## Notas :memo:
 
