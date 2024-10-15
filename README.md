@@ -40,7 +40,7 @@ docker compose up
 - En el directorio `backend` se creó un [README.md](backend/README.md) más detallado para el paso 2
 - En el directorio `frontend` se creó un [README.md](frontend/README.md) más detallado para el paso 3
 
-### Pendientes :construction:
+## Pendientes :construction:
 
 - Consumir los endpoints (products, categories, auth) de la API en el Frontend y renderizarlos desde React Server Components y Server Actions.
 - Agregar validaciones de datos en los formularios de React
