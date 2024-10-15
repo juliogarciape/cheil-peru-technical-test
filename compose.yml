@@ -1,8 +1,8 @@
-name: 'technical-test'
+name: 'fullstack-app'
 
 services:
   database:
-    image: postgres:latest
+    image: postgres:17
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: mysecret
@@ -10,14 +10,13 @@ services:
     ports:
       - '5432:5432'
   backend:
-    image: node:22.6.0-bullseye
+    build: ./backend
+    environment:
+      DATABASE_URL: postgres://postgres:mysecret@database:5432/cheil_peru
+    volumes:
+      - ./backend:/app
     ports:
       - '3001:3000'
     depends_on:
       - database
-  frontend:
-    image: node:22.6.0-bullseye
-    ports:
-      - '3000:3000'
-    depends_on:
-      - backend
+    command: npm run start:dev
