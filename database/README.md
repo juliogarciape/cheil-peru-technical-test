@@ -16,6 +16,7 @@ Este directorio es el **paso 1** del reto técnico para el puesto de Full Stack 
 
 - Se usó el motor de base de datos relacional **PostgreSQL** por preferencia personal además de ser la base de datos por defecto que viene integrado en Prisma.
 - En el diseño de bases de datos, la nomenclatura de las tablas son mayormente en plural, minúsculas y en ingles **por lo que los nombres de las tablas fueron cambiados a** `users`, `products`, `categories` y el nombre de la base de datos es `cheil_peru` para identificar el proyecto.
+- Se normalizó la base de datos para evitar redundancia de datos y mantener la integridad referencial.
 - En la tabla `users` y `products` se ha usado el tipo `UUID` en el campo `userId` y `productId` por encima del tipo `SERIAL` ya que garantiza una mejor seguridad en la generación de claves primarias.
 - En los campos `userId` y `categoryId` de la tabla `products` se ha usado un _delete accion_ para manipular automaticamente registros dependiendo si se eliminan valores en las tablas `users` y `categories` ya que es necesario mantener la integridad referencial.
 

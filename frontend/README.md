@@ -8,7 +8,7 @@ Este directorio es el **paso 3** del reto técnico para el puesto de Full Stack 
 
 :heavy_check_mark: Usar React Js, Next Js (Framework). 
 :heavy_check_mark: Formulario que permita Crear, Obtener, Editar y Eliminar una Categoría 
-:x: Formulario que permita Crear, Obtener, Editar y Eliminar un Producto. 
+:heavy_check_mark: Formulario que permita Crear, Obtener, Editar y Eliminar un Producto. 
 :x: Grid o Tabla de datos con información de Productos (lista de productos). 
 :heavy_check_mark: Usar buenas prácticas a nivel del proyecto, código, nomenclatura, etc. 
 :x: Consumir las APIs de Producto en el Formulario. 
@@ -19,6 +19,7 @@ Este directorio es el **paso 3** del reto técnico para el puesto de Full Stack 
 ## Notas :memo:
 
 - Se utilizaron los componentes de las ultimas versiones de Next.js para App Router como `React Server Components`, `Server Actions`
+- Se utilizó Tailwind CSS para el diseño rapido de la interfaz de usuario.
 
 ## Recomedaciones :bulb:
 

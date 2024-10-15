@@ -3,7 +3,7 @@ import Link from 'next/link'
 const links = [
 	{
 		name: 'Categorias',
-		href: '/panel/category',
+		href: '/panel/categories',
 	},
 	{
 		name: 'Productos',
@@ -11,7 +11,7 @@ const links = [
 	},
 	{
 		name: 'Salir',
-		href: '/login',
+		href: '/',
 	},
 ]
 
@@ -22,11 +22,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="es">
-			<body className="bg-slate-200">
-				<div className="bg-black text-white p-6 py-3 mb-16 flex items-center justify-between">
-					<h2 className="text-bold text-xl">
-						Panel de Administración
-					</h2>
+			<body className="bg-slate-100">
+				<div className="bg-slate-600 text-white p-6 py-3 mb-16 flex items-center justify-between">
+					<h2 className="text-bold text-xl">User - Dashboard</h2>
 					<div className="flex gap-6 *:text-slate-300 hover:*:text-white">
 						{links.map((link, index) => (
 							<Link href={link.href} key={index}>

@@ -30,3 +30,4 @@ Este directorio es el **paso 2** del reto técnico para el puesto de Full Stack 
 - Integrar un refresh token para mejorar la autenticación.
 - Utilizar arquitectura Hexagonal para la estructura del proyecto.
 - Agregar un logger para tener un mejor control de los errores.
+- En caso de registro de usuarios, agregar la libreria `bcrypt` para encriptar las contraseñas.

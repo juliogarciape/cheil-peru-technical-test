@@ -1,8 +1,8 @@
-# :sparkles: Reto Técnico: Full Stack Developer - Cheil Peru :dart:
+# :sparkles: Reto Técnico: Full Stack Developer :dart:
 
 ## Descripción :page_facing_up:
 
-Este proyecto es un reto técnico para el puesto de Full Stack Developer en Cheil Peru. El reto consiste en 3 pasos:
+Este proyecto es un reto técnico para el puesto de Full Stack Developer en la empresa Cheil Peru. El reto consiste en 3 pasos:
 
 1. **Base de Datos**: Modelar una base de datos relacional con tablas usando buenas prácticas.
 2. **Backend**: Crear una API REST que se conecte a la base de datos del paso 1 para hacer un CRUD. 
@@ -37,8 +37,17 @@ docker compose up
 - Se utilizo Docker y Docker Compose para el entorno de desarrollo.
 - Para acelerar la descarga y ejecucion de paquetes se desarrollo tambien en GitHub Codespaces.
 
+### Pendientes :construction:
+
+- Consumir los endpoints (products, categories, auth) de la API en el Frontend y renderizarlos desde React Server Components y Server Actions.
+- Agregar validaciones de datos en los formularios de React
+- Agregar redirecciones en el frontend para una mejor experiencia de usuario y a su vez validar el JWT desde el backend
+- Crear Guards en Nest.js para manejar la autenticación de los usuarios y los permisos a los endpoints
+- Personalizar el manejador de respuestas en los endpoints de Nest.js para tener un mejor control de los errores y solicitudes
+
 ## Recomedaciones :bulb:
 
 - Adaptar el repositorio a un monorepo multipaquete para tener un mejor manejo de los proyectos.
+- Optimizar el Docker Compose para liberar peso en la creacion de la imagen de Docker.
 - Utilizar GitHub Actions para CI/CD y Docker Hub para el almacenamiento de las imagenes de Docker.
 - Usar los servicios de AWS o Azure para la publicación de APIs y Front End

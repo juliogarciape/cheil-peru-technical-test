@@ -1,7 +1,0 @@
-GET http://localhost:3001/products/
-Content-Type: application/json
-
-{
-    "name": "Limpieza",
-    "description": "Productos de limpieza y aseo personal"
-}

@@ -10,7 +10,7 @@ services:
     ports:
       - '5432:5432'
   backend:
-    build: ./backend
+    image: node:22.6.0-bullseye
     environment:
       DATABASE_URL: postgres://postgres:mysecret@database:5432/cheil_peru
     volumes:
@@ -19,4 +19,15 @@ services:
       - '3001:3000'
     depends_on:
       - database
-    command: npm run start:dev
+    working_dir: /app
+    command: sh -c "npm install && npx prisma migrate dev --name init && npm run start:dev"
+  frontend:
+    image: node:22.6.0-bullseye
+    volumes:
+      - ./frontend:/app
+    ports:
+      - '3000:3000'
+    depends_on:
+      - backend
+    working_dir: /app
+    command: sh -c "npm install && npm run dev"
