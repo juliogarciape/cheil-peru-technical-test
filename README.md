@@ -35,6 +35,7 @@ docker compose up
 ## Notas :memo:
 
 - Se utilizo Docker y Docker Compose para el entorno de desarrollo.
+- Para acelerar la descarga y ejecucion de paquetes se desarrollo tambien en GitHub Codespaces.
 
 ## Recomedaciones :bulb:
 
