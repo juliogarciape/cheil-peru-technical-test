@@ -6,11 +6,11 @@ Este directorio es el **paso 1** del reto técnico para el puesto de Full Stack 
 
 ## Requerimientos :clipboard:
 
-:heavy_check_mark: Usar base de datos relacional
-:heavy_check_mark: Crear una base de datos con las tablas `Usuario`, `Producto`, `Categoría`
-:heavy_check_mark: Respetar estándares de diseño y modelamiento de base de datos
-:heavy_check_mark: Usar buenas prácticas a nivel de tablas, campos y tipo de datos
-:heavy_check_mark: Los campos de las tablas son de libre elección
+- :heavy_check_mark: Usar base de datos relacional
+- :heavy_check_mark: Crear una base de datos con las tablas `Usuario`, `Producto`, `Categoría`
+- :heavy_check_mark: Respetar estándares de diseño y modelamiento de base de datos
+- :heavy_check_mark: Usar buenas prácticas a nivel de tablas, campos y tipo de datos
+- :heavy_check_mark: Los campos de las tablas son de libre elección
 
 ## Notas :memo:
 
