@@ -36,7 +36,7 @@ docker compose up
 
 - Se utilizo Docker y Docker Compose para el entorno de desarrollo.
 - Para acelerar la descarga y ejecucion de paquetes se desarrollo tambien en GitHub Codespaces.
-- En el directorio `database` se creó un [README.md](databases/README.md) más detallado para el paso 1
+- En el directorio `database` se creó un [README.md](database/README.md) más detallado para el paso 1
 - En el directorio `backend` se creó un [README.md](backend/README.md) más detallado para el paso 2
 - En el directorio `frontend` se creó un [README.md](frontend/README.md) más detallado para el paso 3
 
